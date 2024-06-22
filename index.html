@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+    <title>Calculate Your Income</title>
+  </head>
+  <body>
+    <h3>Income <span>Calculate</span></h3>
+    <div class="add-new-client">
+      <img src="./icons8-plus-math-24.png" alt="" />
+    </div>
+    <div class="nav-bar">
+      <a href="priceDetails.html" class="total-price"
+        >Total: <span>0</span> TRY</a
+      >
+    </div>
+    <div class="container">
+      <input
+        class="price-input"
+        type="text"
+        placeholder="Please Enter Your Income"
+      />
+      <select class="select-client">
+        <option>Select</option>
+      </select>
+      <div class="invalid-msg"></div>
+      <button id="add-new-value">ADD</button>
+
+      <div class="clients">
+        <div class="overlay"></div>
+        <div class="change-name">
+          <span class="exit"> <img src="./button.png" alt="" /> </span>
+          <input type="text" placeholder="Enter Client Name" />
+          <button>Change</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
